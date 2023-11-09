@@ -11,8 +11,8 @@ public class ArithmaticOperators {
        int f = b-a;
        System.out.println("25-10 =" + f);
        int g = a*b;
-       System.out.println("10*25=" +g);
-       int h = b/a;
+       System.out.println("10*25=" + g);
+       float h = (float)b/a; // 2.14
        System.out.println("25/10=" + h);
     }
 
