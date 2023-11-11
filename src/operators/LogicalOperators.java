@@ -34,20 +34,7 @@ public class LogicalOperators {
         boolean result4 = (a > b) || (b < c);
         System.out.println(result4);
     }
-public void Scanning(){
-    Scanner scan = new Scanner (System.in);
-    System.out.println("Enter your age below : ");
-    int age = scan.nextInt();
-    System.out.println("age is " + 30);
 
-    System.out.println("Enter your regNo below : ");
-    short regNo = scan.nextShort();
-    System.out.println("regNo is " + 11111);
-
-    System.out.println("Enter your stockBalance below : ");
-    float stockBalance = scan.nextFloat();
-    System.out.println("stockBalance is " + 5.53534f);
-}
 
     public static void main(String[] args) {
         LogicalOperators obj = new LogicalOperators();
@@ -58,18 +45,17 @@ public void Scanning(){
         String myName = scan.nextLine();
         System.out.println("my name is " + myName);
 
-        Scanner Scan = new Scanner (System.in);
         System.out.println("Enter your age below : ");
-        int age = scan.nextInt();
-        System.out.println("age is " + 30);
+        int myage = scan.nextInt();
+        System.out.println("age is " + myage);
 
         System.out.println("Enter your regNo below : ");
-        short regNo = scan.nextShort();
-        System.out.println("regNo is " + 11111);
+        short myregNo = scan.nextShort();
+        System.out.println("regNo is " + myregNo);
 
         System.out.println("Enter your stockBalance below : ");
-        float stockBalance = scan.nextFloat();
-        System.out.println("stockBalance is " + 5.53534f);
+        float mystockBalance = scan.nextFloat();
+        System.out.println("stockBalance is " + mystockBalance);
         // Homework-- get input from Console age ( int), regNo(short), stockBalance(float)
 
 
