@@ -66,7 +66,8 @@ public class LogicalOperators {
 
         if (veg == "tomato") {
             System.out.println("bring it home");
-        } else {
+        }
+        else {
             System.out.println("bring something else");
 
         }
