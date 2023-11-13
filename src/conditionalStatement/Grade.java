@@ -15,6 +15,13 @@ f. Above 80 - A
 Ask user to enter marks and print the corresponding grade.
 */
 
+    public static void main(String[] args) {
+        Grade obj = new Grade();
+        obj.grade();
+    }
+
+
+
     public void grade () {
         Scanner scan = new Scanner(System.in);
         int mark = scan.nextInt();
