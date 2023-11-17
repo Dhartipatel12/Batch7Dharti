@@ -19,15 +19,15 @@ public class Temperature {
         Scanner scan = new Scanner(System.in);
         int Temperature = scan.nextInt();
         if (Temperature < 30) {
-            System.out.println("the temperature is Cold ");
+            System.out.println("the temperature is Super Cold ");
         }
         else if ((Temperature==30) || (Temperature<49)) {
             System.out.println("the temperature is Cold ");
         }
-        else if ((Temperature==50) || (Temperature<69)) {
+        else if ((Temperature==49) || (Temperature<69)) {
             System.out.println("the temperature is Warm ");
         }
-        else if ((Temperature==70) || (Temperature<89)) {
+        else if ((Temperature==69) || (Temperature<89)) {
             System.out.println("the temperature is Hot ");
         }
     }

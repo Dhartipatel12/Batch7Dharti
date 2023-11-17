@@ -2,7 +2,7 @@ package conditionalStatement;
 
 import java.util.Scanner;
 
-  public class Grades {
+  public class Marks {
       /*
 4.A school has followingrules for grading system:
 a. Below 25 - F
@@ -15,7 +15,7 @@ f. Above 80 - A
 
 
       public static void main(String[] args) {
-          Grades obj = new Grades();
+          Marks obj = new Marks();
           obj.grades();
 
       }
@@ -39,9 +39,10 @@ f. Above 80 - A
          else if((mark==60) || (mark <80)){
             System.out.println("the student got B");
         }
-         else if (mark>80){
+         else if ((mark==80)||(mark>80)){
             System.out.println("the student got A");
         }
     }
+
 }
 
