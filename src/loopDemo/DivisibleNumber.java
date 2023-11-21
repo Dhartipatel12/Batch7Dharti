@@ -5,10 +5,16 @@ public class DivisibleNumber {
        and find which number is divisible by 7.
 */
 
-public void DivisibleNumber(){
-    int[] num ={21,28,35,42,49};
+
+
+
+
+ public void DivisibleNumber(){
+      // 20-50
     for (int a = 20; a <= 50; a++) {
-        System.out.println(a%7);
+        if (a % 7 == 0)
+            System.out.println(a);
+
     }
 
 }

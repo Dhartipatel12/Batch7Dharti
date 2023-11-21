@@ -7,7 +7,7 @@ public class PositiveNegativenumber {
 
  public void PositiveNegativenumber(){
      for (int a = 0; a <=10; a++) {
-         System.out.println(a +1 );
+         System.out.println(a+1 );
      }
      for (int a =1; a>=0; a--){
          System.out.println(a-1);
