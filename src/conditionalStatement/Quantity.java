@@ -31,8 +31,8 @@ public class Quantity {
 
 
     public static void main(String[] args) {
-   Quantity obj = new Quantity();
-   obj.discount();
+    Quantity obj = new Quantity();
+    obj.discount();
 
     }
 }

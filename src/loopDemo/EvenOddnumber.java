@@ -11,14 +11,13 @@ public class EvenOddnumber {
 
     public void EvenOddnumber(int Number) {
 
-        int num = 4;
-        for (int a = 1; a <=1;a++) {
-            if (4 % 2 == 0) {
-                System.out.println(4 + " is an even number ");
+        for (int a = 0; a <=6;a++) {
+            if (a % 2 == 0) {
+                System.out.println(a + " is an even number ");
             }
-            int b = 5;
-            if (5 % 2 == 1) {
-                System.out.println(5 + " is an odd number ");
+
+            if (a % 2 == 1) {
+                System.out.println(a + " is an odd number ");
             }
 
         }

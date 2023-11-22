@@ -13,8 +13,7 @@ public class DivisibleNumber {
       // 20-50
     for (int a = 20; a <= 50; a++) {
         if (a % 7 == 0)
-            System.out.println(a);
-
+            System.out.println(a + " is divided by 7");
     }
 
 }

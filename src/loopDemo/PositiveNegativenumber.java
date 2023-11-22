@@ -6,12 +6,19 @@ public class PositiveNegativenumber {
  */
 
  public void PositiveNegativenumber(){
-     for (int a = 0; a <=10; a++) {
-         System.out.println(a+1 );
+     for (int a = 1; a <=10; a++) {
+         System.out.println(a);
+         if (a==0){
+             System.out.println(a + " is a positive number");
+         }
+         else if (a>0){
+             System.out.println(a + " is a positive number");
+         }
+         else if (a<0){
+             System.out.println(a + " os a negative number");
+         }
      }
-     for (int a =1; a>=0; a--){
-         System.out.println(a-1);
-     }
+
  }
 
 
