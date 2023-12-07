@@ -5,9 +5,11 @@ public class OverloadingDemo {
    1. different number of parameter
    2, different data type
    3. different order of parameter
+   Overloading is called compiletime polymorphism
  */
 
     public void add (int a, int b){
+
         System.out.println(a+b);
     }
 
